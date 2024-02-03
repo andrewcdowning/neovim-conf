@@ -1,0 +1,5 @@
+## Requirements
+---
+neovim => 0.9.5
+ripgrep latest
+
