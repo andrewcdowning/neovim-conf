@@ -12,6 +12,10 @@ return {
         null_ls.builtins.formatting.rubocop,
         null_ls.builtins.diagnostics.eslint,
         null_ls.builtins.completion.spell,
+        null_ls.builtins.formatting.isort,
+        null_ls.builtins.formatting.black,
+        null_ls.builtins.diagnostics.ruff,
+        null_ls.builtins.diagnostics.staticcheck,
       },
     })
     vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
