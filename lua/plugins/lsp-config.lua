@@ -41,6 +41,7 @@ return {
       })
       lspconfig.gopls.setup({
         capabilities = capabilities,
+        ft = {"go"}
       })
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {})
