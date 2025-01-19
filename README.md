@@ -5,7 +5,7 @@ ripgrep latest
 
 Manage neovim install with [bob](https://github.com/MordechaiHadad/bob)
 
-## Pyton env set up
+## Python env set up
 requirements
 ---
 - python3
