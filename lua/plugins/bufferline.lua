@@ -1,7 +1,7 @@
 return {
 	"akinsho/bufferline.nvim",
 	version = "*",
-	dependencies = { "echasnovski/mini.icons", opts = {} } ,
+	dependencies = { "nvim-tree/nvim-web-devicons", opts = {} } ,
   config = function()
     local bufferline = require("bufferline")
   bufferline.setup {
