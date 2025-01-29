@@ -36,7 +36,7 @@ return {
 			),
 			dashboard.button("r", " " .. " Recent files", "<cmd> Telescope oldfiles <cr>"),
 			dashboard.button("g", " " .. " Find text", "<cmd> Telescope live_grep <cr>"),
-			dashboard.button("f", " Fing Files", ":Telescope find_files<CR>"),
+			dashboard.button("f", " Find Files", ":Telescope find_files<CR>"),
 			dashboard.button("l", "󰒲 " .. " Lazy", "<cmd> Lazy <cr>"),
 			dashboard.button("q", "󰅚  Quit NVIM", ":qa<CR>"),
 		}
